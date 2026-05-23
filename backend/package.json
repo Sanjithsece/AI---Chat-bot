@@ -1,0 +1,25 @@
+{
+  "name": "openrouter-chatbot-backend",
+  "version": "1.0.0",
+  "description": "Express backend for a full stack OpenRouter AI chatbot.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "express",
+    "openrouter",
+    "chatbot",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
